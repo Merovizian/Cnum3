@@ -20,7 +20,7 @@ for i = 1:size(INPUT,1)
    // carregar o arquivo de saída
    load("output.dat", "C");
    // checar o resultado
-   assert_checkequal ( C , OUTPUT(i) );
+  assert_checkequal ( C , OUTPUT(i) );
 end
 // imprimir fim de testes
 mprintf("--------------------\n");
